@@ -13,6 +13,7 @@ namespace NUnitTestProject
         [Test]
         public void ShouldCall()
         {
+            /*
             var results = CallClient.Do(new Call.CallCommand
             {
                 To = new[] {
@@ -33,7 +34,9 @@ namespace NUnitTestProject
                     "https://nexmo-community.github.io/ncco-examples/first_call_talk.json"
                 }
             });
+            
             Assert.AreEqual("started", results.status);
+            */
         }
     }
 }
